@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.api.parkingcontrol.models.ParkingSpotModel;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 @RestController

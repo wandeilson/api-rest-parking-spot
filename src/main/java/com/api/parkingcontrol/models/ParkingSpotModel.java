@@ -4,12 +4,12 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import lombok.Data;
 
 @Entity
@@ -39,12 +39,5 @@ import lombok.Data;
 	private String apartment;
 	@Column (nullable = true, length = 30)
 	private String block;
-
-
-	public static void main(String[] args) {
-		ParkingSpotModel p = new ParkingSpotModel();
-		
-		
-	}
 
 }
